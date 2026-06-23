@@ -1,12 +1,12 @@
 {
-  "name": "all-24-results",
+  "name": "24points",
   "version": "1.0.0",
-  "description": "",
+  "description": "四张扑克牌算24点 — 全部1820种组合的解答",
   "main": "solver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "solve": "node solver.js > solutions.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["24点", "poker", "math", "game"],
+  "author": "holynova",
+  "license": "MIT"
 }
