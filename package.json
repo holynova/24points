@@ -4,7 +4,9 @@
   "description": "四张扑克牌算24点 — 全部1820种组合的解答",
   "main": "solver.js",
   "scripts": {
-    "solve": "node solver.js > solutions.json"
+    "solve": "node solver.js > solutions.json",
+    "build": "node scripts/build-static.mjs",
+    "build:pages": "pnpm run build"
   },
   "keywords": ["24点", "poker", "math", "game"],
   "author": "holynova",

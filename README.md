@@ -2,7 +2,7 @@
 
 四张扑克牌算24 — 全部1820种组合的解答。
 
-🔗 **在线使用**：https://holynova.github.io/24points/
+🔗 **在线使用**：https://holynova.github.io/24points/ · https://24points.xiaosang.cc/
 
 ![screenshot](screenshot.png)
 

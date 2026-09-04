@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "24points",
+  "compatibility_date": "2026-09-04",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./dist"
+  },
+  "routes": [
+    { "pattern": "24points.xiaosang.cc", "custom_domain": true }
+  ]
+}
