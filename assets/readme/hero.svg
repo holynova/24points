@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="24点全解 — 四张扑克牌算24，全部1820种组合的解答：3 3 8 8 的解法是 8÷(3-8÷3)=24">
+  <title>24点全解</title>
+  <desc>四张扑克牌算 24：全部 1820 种组合的解答，1362 种有解，3713 条不重复表达式。</desc>
+
+  <rect width="1200" height="420" rx="20" fill="#F5EFE2"/>
+  <rect width="1200" height="420" rx="20" fill="none" stroke="#DDD2BA" stroke-width="1.5"/>
+
+  <!-- left copy -->
+  <text x="64" y="92" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="600" letter-spacing="4" fill="#8B1E1E">四张扑克牌算 24 · 全部组合的解答</text>
+  <text x="62" y="168" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="66" font-weight="700" fill="#2B2320">24点全解</text>
+  <text x="64" y="208" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="600" letter-spacing="4" fill="#6B5F4A">24 POINTS · COMPLETE SOLUTIONS</text>
+  <text x="64" y="260" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" fill="#4A423A">1820 种组合，1362 种有解，458 种无解</text>
+  <text x="64" y="294" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#6B5F4A">规范化去重后 3713 条不重复表达式，全部可查</text>
+
+  <!-- badges -->
+  <g font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="600">
+    <rect x="64" y="322" width="118" height="36" rx="18" fill="#8B1E1E"/>
+    <text x="123" y="346" text-anchor="middle" fill="#FFFFFF">1820 组合</text>
+    <rect x="194" y="322" width="118" height="36" rx="18" fill="#FFFFFF" stroke="#CFC2A4" stroke-width="1.5"/>
+    <text x="253" y="346" text-anchor="middle" fill="#4A423A">1362 有解</text>
+    <rect x="324" y="322" width="150" height="36" rx="18" fill="#FFFFFF" stroke="#CFC2A4" stroke-width="1.5"/>
+    <text x="399" y="346" text-anchor="middle" fill="#4A423A">3713 表达式</text>
+  </g>
+
+  <!-- right: four cards + equation -->
+  <g id="cards">
+    <rect x="660" y="48" width="476" height="324" rx="16" fill="#FFFFFF"/>
+    <rect x="660" y="48" width="476" height="324" rx="16" fill="none" stroke="#DDD2BA" stroke-width="1.5"/>
+    <g font-family="Georgia, 'Times New Roman', serif" font-weight="700">
+      <g transform="rotate(-6 738 172)">
+        <rect x="688" y="88" width="100" height="168" rx="10" fill="#FFFFFF" stroke="#2B2320" stroke-width="2"/>
+        <text x="706" y="132" font-size="32" fill="#2B2320">3</text>
+        <text x="706" y="162" font-size="24" fill="#2B2320">♠</text>
+        <text x="738" y="216" font-size="52" fill="#2B2320" text-anchor="middle">♠</text>
+      </g>
+      <g transform="rotate(-2 842 172)">
+        <rect x="792" y="88" width="100" height="168" rx="10" fill="#FFFFFF" stroke="#2B2320" stroke-width="2"/>
+        <text x="810" y="132" font-size="32" fill="#8B1E1E">3</text>
+        <text x="810" y="162" font-size="24" fill="#8B1E1E">♥</text>
+        <text x="842" y="216" font-size="52" fill="#8B1E1E" text-anchor="middle">♥</text>
+      </g>
+      <g transform="rotate(2 946 172)">
+        <rect x="896" y="88" width="100" height="168" rx="10" fill="#FFFFFF" stroke="#2B2320" stroke-width="2"/>
+        <text x="914" y="132" font-size="32" fill="#2B2320">8</text>
+        <text x="914" y="162" font-size="24" fill="#2B2320">♣</text>
+        <text x="946" y="216" font-size="52" fill="#2B2320" text-anchor="middle">♣</text>
+      </g>
+      <g transform="rotate(6 1050 172)">
+        <rect x="1000" y="88" width="100" height="168" rx="10" fill="#FFFFFF" stroke="#2B2320" stroke-width="2"/>
+        <text x="1018" y="132" font-size="32" fill="#8B1E1E">8</text>
+        <text x="1018" y="162" font-size="24" fill="#8B1E1E">♦</text>
+        <text x="1050" y="216" font-size="52" fill="#8B1E1E" text-anchor="middle">♦</text>
+      </g>
+    </g>
+    <!-- equation bar -->
+    <g font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      <text x="898" y="316" font-size="30" font-weight="700" fill="#2B2320" text-anchor="middle">8÷(3-8÷3) = 24</text>
+      <text x="898" y="346" font-size="18" fill="#6B5F4A" text-anchor="middle">经典难题 3 3 8 8 · 唯一解法</text>
+    </g>
+  </g>
+</svg>
